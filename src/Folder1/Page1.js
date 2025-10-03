@@ -2,7 +2,7 @@
 
 // Function to greet the user
 function greet(name) {
-    return `Hello, ${name}! Welcome to your JS project.`;
+    return `Hello, ${name}! Welcome to your JS project. I want to change it second time`;
 }
 
 // Test the function
