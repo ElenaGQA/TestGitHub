@@ -18,7 +18,7 @@ function multiply(a, b) {
 // Division of two numbers
 function divide(a, b) {
     if (b === 0) {
-        console.log("Error: Division by zero");
+        console.log("Error: Division by zero is not allowed");
         return null;
     }
     return a / b;
