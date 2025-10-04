@@ -6,7 +6,7 @@ function greet(name) {
 }
 
 // Test the function
-const userName = "Elena";
+const userName = "John Doe";
 console.log(greet(userName));
 
 // Simple loop example
@@ -16,6 +16,6 @@ for (let i = 1; i <= 5; i++) {
 }
 
 // Array example
-const fruits = ["Apple", "Banana", "Cherry"];
+const fruits = ["Apple", "Banana", "Cherry", "Orange"];
 console.log("My favorite fruits are:");
 fruits.forEach(fruit => console.log(fruit));
