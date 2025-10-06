@@ -38,6 +38,9 @@ console.log("Subtract 10 - 5 =", subtract(10, 5));
 console.log("Multiply 10 * 5 =", multiply(10, 5));
 console.log("Divide 10 / 5 =", divide(10, 5));
 console.log(isOdd(7))
+//Here I added another function call
+console.log(isOdd(10))
+
 
 // Export functions for module usage (optional)
 module.exports = { add, subtract, multiply, divide };
