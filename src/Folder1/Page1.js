@@ -2,11 +2,11 @@
 
 // Function to greet the user
 function greet(name) {
-    return `Hello, ${name}! I changed this like to be Smth else`;
+    return `Hello, ${name}! Welcome to your JS project. I want to change it second time`;
 }
 
 // Test the function
-const userName = "Elena";
+const userName = "John Doe";
 console.log(greet(userName));
 
 // Simple loop example
@@ -16,6 +16,6 @@ for (let i = 1; i <= 5; i++) {
 }
 
 // Array example
-const fruits = ["Apple", "Banana", "Cherry"];
+const fruits = ["Apple", "Banana", "Cherry", "Orange"];
 console.log("My favorite fruits are:");
 fruits.forEach(fruit => console.log(fruit));

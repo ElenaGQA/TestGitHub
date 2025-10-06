@@ -2,6 +2,7 @@
 
 // Reverse a string
 function reverseString(str) {
+    console.log(str);
     return str.split('').reverse().join('');
 }
 
@@ -18,6 +19,7 @@ function toLowerCase(str) {
 // Check if string is a palindrome
 function isPalindrome(str) {
     const cleaned = str.replace(/[\W_]/g, '').toLowerCase();
+    console.log(cleaned);
     return cleaned === cleaned.split('').reverse().join('');
 }
 
