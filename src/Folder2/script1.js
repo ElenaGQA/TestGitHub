@@ -1,6 +1,7 @@
 // calculator.js - simple calculator functions for practice
 
 // Addition of two numbers
+
 function add(a, b) {
     return a + b;
 }
@@ -18,21 +19,22 @@ function multiply(a, b) {
 // Division of two numbers
 function divide(a, b) {
     if (b === 0) {
-        console.log("Error: Division by zero is not allowed");
+        console.error("Error: Division by zero is not allowed");
         return null;
     }
     return a / b;
 }
 
 
-function sum (arr){
-let result = 0
-arr.forEach(el =>{
-result +=el
-})
-return result
+function sum(arr) {
+    let result = 0
+    arr.forEach(el => {
+        result += el
+    })
+    return result
 }
 // Test the calculator functions
+
 
 
 
