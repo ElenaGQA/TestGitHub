@@ -2,6 +2,9 @@
 
 // Addition of two numbers
 
+function add(a, b) {
+    return a + b;
+}
 
 // Subtraction of two numbers
 function subtract(a, b) {
@@ -33,28 +36,25 @@ function sum(arr) {
 // Test the calculator functions
 
 
-function isOdd(num) {
-    if (num % 2) {
-        return `${num} is odd`
-    }
-    return `${num} is even`
-}
+
 
 // Test the calculator function
+function isNotOdd(num){
+    if(num%2){
+       return ${num} is even`
+    }
+    return `${num} is odd`
+}
 
-// console.log("Add 10 + 5 =", add(10, 5));
+
 console.log("Subtract 10 - 5 =", subtract(10, 5));
 console.log("Multiply 10 * 5 =", multiply(10, 5));
 console.log("Divide 10 / 5 =", divide(10, 5));
-console.log("Divide 10/0= ",divide(10,0))
-console.log("Array sum result is ", sum([1, 2, 3, 4, 5]))
+console.log("Array sum result is ", sum([1,2,3,4,5]))
+console.log("Add 10 + 5 =", add(2, 3));
 
-console.log(isOdd(7))
-//Here I added another function call
-
-console.log(isOdd(10))
-
-
+console.log(isNotOdd(4))
+console.log(isNotOdd(13))
 
 // Export functions for module usage (optional)
-module.exports = {subtract, multiply, divide };
+module.exports = { add, subtract, multiply, divide };
