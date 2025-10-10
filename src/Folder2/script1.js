@@ -50,6 +50,15 @@ function isNotOdd(num){
 console.log("Subtract 10 - 5 =", subtract(10, 5));
 console.log("Multiply 10 * 5 =", multiply(10, 5));
 console.log("Divide 10 / 5 =", divide(10, 5));
+console.log("Divide 10/0= ",divide(10,0))
+console.log("Array sum result is ", sum([1, 2, 3, 4, 5]))
+
+function greet(name){
+    return `Hello ${name}`
+}
+
+console.log(greet("Jane"))
+
 console.log("Array sum result is ", sum([1,2,3,4,5]))
 console.log("Add 10 + 5 =", add(2, 3));
 
@@ -57,4 +66,4 @@ console.log(isNotOdd(4))
 console.log(isNotOdd(13))
 
 // Export functions for module usage (optional)
-module.exports = { add, subtract, multiply, divide };
+module.exports = {add,subtract, multiply, divide,isNotOdd, greet };
