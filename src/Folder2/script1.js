@@ -19,26 +19,26 @@ function multiply(a, b) {
 // Division of two numbers
 function divide(a, b) {
     if (b === 0) {
-        console.log("Error: Division by zero is not allowed");
+        console.error("Error: Division by zero is not allowed");
         return null;
     }
     return a / b;
 }
 
 
-function sum (arr){
-let result = 0
-arr.forEach(el =>{
-result +=el
-})
-return result
+function sum(arr) {
+    let result = 0
+    arr.forEach(el => {
+        result += el
+    })
+    return result
 }
 // Test the calculator functions
 
 
-function isOdd(num){
-    if(num%2){
-       return `${num} is odd` 
+function isOdd(num) {
+    if (num % 2) {
+        return `${num} is odd`
     }
     return `${num} is even`
 }
@@ -56,11 +56,12 @@ console.log("Add 10 + 5 =", add(10, 5));
 console.log("Subtract 10 - 5 =", subtract(10, 5));
 console.log("Multiply 10 * 5 =", multiply(10, 5));
 console.log("Divide 10 / 5 =", divide(10, 5));
-console.log("Array sum result is ", sum([1,2,3,4,5]))
+console.log("Divide 10/0= ",divide(10,0))
+console.log("Array sum result is ", sum([1, 2, 3, 4, 5]))
 
 console.log(isOdd(7))
 console.log(isNotOdd(4))
 
 
 // Export functions for module usage (optional)
-module.exports = { add, subtract, multiply, divide };
+module.exports = {subtract, multiply, divide };
