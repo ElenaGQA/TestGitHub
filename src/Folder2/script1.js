@@ -33,12 +33,6 @@ function sum(arr) {
 // Test the calculator functions
 
 
-function isOdd(num) {
-    if (num % 2) {
-        return `${num} is odd`
-    }
-    return `${num} is even`
-}
 
 // Test the calculator function
 
@@ -49,12 +43,13 @@ console.log("Divide 10 / 5 =", divide(10, 5));
 console.log("Divide 10/0= ",divide(10,0))
 console.log("Array sum result is ", sum([1, 2, 3, 4, 5]))
 
-console.log(isOdd(7))
-//Here I added another function call
+function greet(name){
+    return `Hello ${name}`
+}
 
-console.log(isOdd(10))
+console.log(greet("Jane"))
 
 
 
 // Export functions for module usage (optional)
-module.exports = {subtract, multiply, divide };
+module.exports = {subtract, multiply, divide,greet };
