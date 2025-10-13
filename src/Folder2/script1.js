@@ -41,7 +41,7 @@ function sum(arr) {
 // Test the calculator function
 function isNotOdd(num){
     if(num%2){
-       return ${num} is even`
+       return `${num} is even`
     }
     return `${num} is odd`
 }
