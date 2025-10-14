@@ -7,6 +7,7 @@ function reverseString(str) {
 }
 
 // Convert string to uppercase
+console.log("hello")
 function toUpperCase(str) {
     return str.toUpperCase();
 }
